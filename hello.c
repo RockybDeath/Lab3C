@@ -13,7 +13,7 @@ int scalar(const int arr1[], const int arr2[], size_t count){
 int is_prime(unsigned long n){
     unsigned long i;
     if(n > 1){
-        for(i = 2; i*i <= n; i+=2){
+        for(i = 2; i*i <= n; i++){
             if(n % i == 0) return 0;
         }
         return 1;
