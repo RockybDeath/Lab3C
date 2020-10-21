@@ -24,6 +24,6 @@ int main(void){
     unsigned long number = 0; 
     printf("The scalar is: %d\n", scalar(arr1, arr2, sizeof(arr1)/sizeof(int)));
     scanf("%lu",&number);
-    printf("The entered number is primary: %s", is_prime(number) ? "true" : "false");
+    printf("The entered number is primary: %s\n", is_prime(number) ? "true" : "false");
     return 0;
 }
